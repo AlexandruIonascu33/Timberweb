@@ -247,6 +247,10 @@
   .footer-dark .item.text {
     margin-bottom:0;
   }
+	
+	 .imagebackground1 {
+    background-size: 130% 100%;
+  }
 }
 
 .footer-dark .item.text p {
