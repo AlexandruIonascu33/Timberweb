@@ -370,17 +370,17 @@
   }
 
 /* Move text up and make it visible */
-2.5% {
+4% {
 		transform: translate3d(0, 0, 0);
   } 
 
 /* Between 2.5% and 25%, nothing changes (text is visible) */
-25% {
+20% {
 		transform: translate3d(0, 0, 0);
   }  
 
 /* Move text up and out of the wrap */
-27% {
+25% {
     transform: translate3d(0, -100px, 0);
   }
 
