@@ -380,7 +380,7 @@
   }  
 
 /* Move text up and out of the wrap */
-27.5% {
+27% {
     transform: translate3d(0, -100px, 0);
   }
 
