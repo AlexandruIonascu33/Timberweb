@@ -384,14 +384,10 @@
     transform: translate3d(0, -100px, 0);
   }
 
-/* Between 27.5% and 99%, nothing changes (text is invisible) */
-99.9999% {
-    transform: translate3d(0, -100px, 0);
-  }
 
 /* Move text to it's original position (loop starts over) */
 100% {
-    transform: translate3d(0, 100px, 0);
+    transform: translate3d(0, -100px, 0);
   }  
 }
 .rotate-wrap {
