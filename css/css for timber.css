@@ -371,11 +371,13 @@
 /* Text is positioned below the wrap */
 0% {
 		transform: translate3d(0, 100px, 0);
+	opacity: 0;
   }
 
 /* Move text up and make it visible */
-4% {
+5% {
 		transform: translate3d(0, 0, 0);
+	opacity: 1;
   } 
 
 /* Between 2.5% and 25%, nothing changes (text is visible) */
