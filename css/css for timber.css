@@ -426,3 +426,57 @@
 .bgg2 {
   background-color: #333;
 }
+
+
+.formdiv {
+
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  max-width: 60rem;
+  height: 40rem;
+  padding: 40px;
+  margin-left: 20%;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+  
+}
+.formelement {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.formelement::placeholder {
+  color: #f0f9ff;
+}
+
+.formbutton {
+  
+  margin-top: 40px;
+  color: #3c0433;
+  font-size: 1.5rem;
+}
+ 
+.formareaelement::placeholder {
+  color: #f0f9ff;
+}
+
+.formareaelement {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  
+  margin-bottom: 30px;
+  border: rgb(115, 0, 255);
+  border-bottom: 1px solid #fff;
+  
+  background:  transparent;
+}
