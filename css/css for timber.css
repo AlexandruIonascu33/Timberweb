@@ -427,7 +427,6 @@
   background-color: #333;
 }
 
-
 .formdiv {
 
   top: 50%;
@@ -460,7 +459,8 @@
 
 .formbutton {
   
-  display: block; margin: 0 auto;
+  display: block; 
+  margin: 0 auto;
   color: #3c0433;
   font-size: 1rem;
 }
