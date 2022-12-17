@@ -434,7 +434,7 @@
   left: 50%;
   width: 60%;
   max-width: 60rem;
-  height: 40rem;
+  height: 30rem;
   padding: 40px;
   margin-left: 20%;
   background: rgba(0,0,0,.5);
@@ -460,9 +460,9 @@
 
 .formbutton {
   
-  margin-top: 40px;
+  display: block; margin: 0 auto;
   color: #3c0433;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
  
 .formareaelement::placeholder {
@@ -473,8 +473,8 @@
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
-  
-  margin-bottom: 30px;
+  height: 10rem;
+  margin-bottom: 5%;
   border: rgb(115, 0, 255);
   border-bottom: 1px solid #fff;
   
